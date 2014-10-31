@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pick a Date</title>
+        <link rel='stylesheet' type='text/css' href='stylesheet.css'/>
+	</head>
+	<body>
+		<div id="header">
+		
+		<h2><br/>Select a Destination</h2>
+		</div>
+	   <b>Departure:</b><input name="startDate" type="date" />
+	   <b>Arrival:  </b><input name="endDate" type="date" />
+           <div id="menu">
+        	<p><b>Destination:</b></p>
+			<select id="dropdown">
+				<option value="as">ASENOVGRAD</option>
+				<option value="tp">TOPOLOVO</option>
+				<option value="pl">PLOVDIV</option>
+				<option value="sf">SOFIA</option>
+			</select>
+			
+    <div id="wrapper"><br/>
+            <div id="inputs">
+                <form name="input" action="#" method="post">
+            	    First name: <input type="text" name="firstname" value="first name"><br/>
+            	    Last name: <input type="text" name="lastname" value="last name"><br/>
+           	        E-mail: <input type="email" name="email" value="e-mail address"><br/><br/>
+                </form>
+            </div>
+            <div>
+			    <form id="options">
+                 Message: <br/><textarea name="msg"></textarea><br/>
+                  <input type="checkbox" name="notify" value="updates" checked>I'd like to receive notices when this website updates.<br/>
+                  <input type="submit" value="Submit">
+                </form>
+            </div>
+   </body>
+   </html>
